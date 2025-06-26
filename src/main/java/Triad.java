@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Triad} is a fixed-size tuple of 3 {@link Comparable} elements.
  *

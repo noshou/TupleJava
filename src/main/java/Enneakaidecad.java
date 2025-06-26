@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * An {@code Enneakaidecad} is a fixed-size tuple of 19 {@link Comparable} elements.
  *

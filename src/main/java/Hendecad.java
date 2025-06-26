@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Hendecad} is a fixed-size tuple of 11 {@link Comparable} elements.
  *

@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Pentad} is a fixed-size tuple of 5 {@link Comparable} elements.
  *

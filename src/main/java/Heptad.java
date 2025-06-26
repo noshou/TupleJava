@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Heptad} is a fixed-size tuple of 7 {@link Comparable} elements.
  *

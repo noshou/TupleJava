@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Dodecad} is a fixed-size tuple of 12 {@link Comparable} elements.
  *

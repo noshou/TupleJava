@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Decad} is a fixed-size tuple of 10 {@link Comparable} elements.
  *

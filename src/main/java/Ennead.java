@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * An {@code Ennead} is a fixed-size tuple of 9 {@link Comparable} elements.
  *

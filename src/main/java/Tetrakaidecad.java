@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Tetrakaidecad} is a fixed-size tuple of 14 {@link Comparable} elements.
  *

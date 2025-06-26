@@ -1,0 +1,86 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'24'
+-sourcepath
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tuple 1.0.0 API'
+-use
+-version
+-windowtitle
+'tuple 1.0.0 API'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Decad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dodecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dyad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Ennead.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Enneakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hendecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hexad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hexakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Icosad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Monad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Nullad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Octad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Octakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Pentad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Pentakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrakaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triskaidecad.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tuple.java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Polyad.java'
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Decad.java = 1749523037408
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dodecad.java = 1749523037452
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dyad.java = 1749523037402
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Ennead.java = 1749523037389
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Enneakaidecad.java = 1749523037398
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hendecad.java = 1749523037457
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptad.java = 1749523037447
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptakaidecad.java = 1749523037443
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hexad.java = 1749523037462
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hexakaidecad.java = 1749523037486
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Icosad.java = 1749523037477
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Monad.java = 1750964654740
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Nullad.java = 1749523037412
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Octad.java = 1749523037393
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Octakaidecad.java = 1749523037416
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Pentad.java = 1749523037482
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Pentakaidecad.java = 1749523037371
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrad.java = 1749523037431
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrakaidecad.java = 1749523037421
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triad.java = 1749523037426
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triskaidecad.java = 1749523037438
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tuple.java = 1749523851559
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Polyad.java = 1750965116551
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java = 1750965116554
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/element-list = 1750965256868
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/overview-tree.html = 1750965256935
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/allclasses-index.html = 1750965256951
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/allpackages-index.html = 1750965256952
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/module-search-index.js = 1750965256953
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/package-search-index.js = 1750965256954
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/type-search-index.js = 1750965256954
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/member-search-index.js = 1750965256954
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/tag-search-index.js = 1750965256954
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/index-all.html = 1750965256969
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/search.html = 1750965256970
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/index.html = 1750965256971
+/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/help-doc.html = 1750965256973

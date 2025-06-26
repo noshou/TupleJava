@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Monad} is a fixed-size tuple of 1 {@link Comparable} element.
  *

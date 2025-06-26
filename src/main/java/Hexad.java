@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Hexad} is a fixed-size tuple of 6 {@link Comparable} elements.
  *

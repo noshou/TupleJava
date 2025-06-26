@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * An {@code Octakaidecad} is a fixed-size tuple of 18 {@link Comparable} elements.
  *

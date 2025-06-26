@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Tetrad} is a fixed-size tuple of 4 {@link Comparable} elements.
  *

@@ -1,3 +1,4 @@
+package com.oson.tuple;
 import java.util.*;
 
 /**
@@ -5,7 +6,7 @@ import java.util.*;
  * Stores the items in a LinkedHashMap keyed by their position.
  * @param <I> the type of items in the tuple; must implement Comparable
  */
-abstract class Tuple<I extends Comparable<I>>
+public abstract class Tuple<I extends Comparable<I>>
         implements Comparable<Tuple<I>>, Iterable<I>  {
 
     /**

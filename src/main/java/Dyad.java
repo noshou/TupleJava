@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Dyad} is a fixed-size tuple of 2 {@link Comparable} elements.
  *

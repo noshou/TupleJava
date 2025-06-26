@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Nullad} is a zero-length {@link Tuple}.
  * It represents an empty tuple (like Unit in some functional languages).

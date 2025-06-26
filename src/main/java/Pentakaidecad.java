@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Pentakaidecad} is a fixed-size tuple of 15 {@link Comparable} elements.
  *

@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * An {@code Octad} is a fixed-size tuple of 8 {@link Comparable} elements.
  *

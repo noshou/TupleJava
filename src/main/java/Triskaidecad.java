@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Triskaidecad} is a fixed-size tuple of 13 {@link Comparable} elements.
  *

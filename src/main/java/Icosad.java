@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * An {@code Icosad} is a fixed-size tuple of 20 {@link Comparable} elements.
  *

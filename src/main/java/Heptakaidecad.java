@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Heptakaidecad} is a fixed-size tuple of 17 {@link Comparable} elements.
  *

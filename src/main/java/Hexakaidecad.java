@@ -1,3 +1,5 @@
+package com.oson.tuple;
+
 /**
  * A {@code Hexakaidecad} is a fixed-size tuple of 16 {@link Comparable} elements.
  *
