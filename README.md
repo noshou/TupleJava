@@ -25,6 +25,16 @@ This library offers a hierarchy of generic tuple classes, each representing a fi
 
 - Fixed-size tuples like:  
   `Monad`, `Dyad`, `Triad`, `Tetrad`, ..., up to `Icosad` (20 elements) and special sizes like `Enneakaidecad` (19 elements).
+## Importing
+Add the dependency in your Maven `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>com.oson</groupId>
+    <artifactId>tuple</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
 ## Usage Example
 
@@ -42,12 +52,3 @@ for (String item : triple) {
     System.out.println(item);
 }
 
-## Importing
-Add the dependency in your Maven `pom.xml`:
-
-```xml
-<dependency>
-    <groupId>com.oson</groupId>
-    <artifactId>tuple</artifactId>
-    <version>1.0.0</version>
-</dependency>
