@@ -23,7 +23,7 @@ public class Triskaidecad<I extends Comparable<I>> extends Tuple<I> {
             I item13
     ) {
         super(
-                12,
+                13,
                 (I[]) new Comparable[]{
                         item1,
                         item2,

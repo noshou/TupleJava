@@ -1,5 +1,3 @@
--J-Duser.language=
--J-Duser.country=
 @options
 @argfile
 -encoding
@@ -8,14 +6,14 @@
 -source
 '24'
 -sourcepath
-'/home/oson/computer_science/JavaPackages/Tuple/src/main/java'
+'/home/oson/computer_science/JavaPackages/Tuple/src/main/java:/home/oson/computer_science/JavaPackages/Tuple/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2025. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs'
+'/home/oson/computer_science/JavaPackages/Tuple/target/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
@@ -51,7 +49,7 @@
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dodecad.java = 1749523037452
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Dyad.java = 1749523037402
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Ennead.java = 1749523037389
-/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Enneakaidecad.java = 1749523037398
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Enneakaidecad.java = 1751640290734
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Hendecad.java = 1749523037457
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptad.java = 1749523037447
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Heptakaidecad.java = 1749523037443
@@ -67,20 +65,21 @@
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrad.java = 1749523037431
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tetrakaidecad.java = 1749523037421
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triad.java = 1749523037426
-/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triskaidecad.java = 1749523037438
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java/Triskaidecad.java = 1751640290728
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Tuple.java = 1749523851559
 /home/oson/computer_science/JavaPackages/Tuple/src/main/java/Polyad.java = 1750965116551
-/home/oson/computer_science/JavaPackages/Tuple/src/main/java = 1750965116554
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/element-list = 1750965256868
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/overview-tree.html = 1750965256935
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/allclasses-index.html = 1750965256951
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/allpackages-index.html = 1750965256952
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/module-search-index.js = 1750965256953
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/package-search-index.js = 1750965256954
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/type-search-index.js = 1750965256954
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/member-search-index.js = 1750965256954
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/tag-search-index.js = 1750965256954
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/index-all.html = 1750965256969
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/search.html = 1750965256970
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/index.html = 1750965256971
-/home/oson/computer_science/JavaPackages/Tuple/target/reports/apidocs/help-doc.html = 1750965256973
+/home/oson/computer_science/JavaPackages/Tuple/src/main/java = 1751640290736
+/home/oson/computer_science/JavaPackages/Tuple/target/generated-sources/annotations = 1751640297275
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/element-list = 1751640299676
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/overview-tree.html = 1751640299720
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/allclasses-index.html = 1751640299731
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/allpackages-index.html = 1751640299733
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/module-search-index.js = 1751640299733
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/package-search-index.js = 1751640299734
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/type-search-index.js = 1751640299735
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/member-search-index.js = 1751640299735
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/tag-search-index.js = 1751640299735
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/index-all.html = 1751640299746
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/search.html = 1751640299747
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/index.html = 1751640299748
+/home/oson/computer_science/JavaPackages/Tuple/target/apidocs/help-doc.html = 1751640299749

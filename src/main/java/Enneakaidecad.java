@@ -29,7 +29,7 @@ public class Enneakaidecad<I extends Comparable<I>> extends Tuple<I> {
             I item19
     ) {
         super(
-                20,
+                19,
                 (I[]) new Comparable[]{
                         item1,
                         item2,
