@@ -1,9 +1,5 @@
-# Tuple
-A simple, immutable, and static tuple-like library for Java Provides fixed-size, immutable tuple classes (from Monad up to Icosad, including polyad for n-tuples) that enable grouping multiple comparable elements with lexicographic ordering. Designed for straightforward usage without dependencies, emphasizing immutability and type safety.
-
-# Tuple Library (com.oson.tuple)
-
-A simple, immutable, and static **tuple-like** library for Java that provides fixed-size tuple classes supporting comparable elements with lexicographic ordering.
+# Tuple (com.oson.tuple)
+A simple, immutable, and static **tuple-like** library for Java Provides fixed-size, immutable tuple classes (from Monad up to Icosad, including polyad for n-tuples) that enable grouping multiple comparable elements with lexicographic ordering. Designed for straightforward usage without dependencies, emphasizing immutability and type safety.
 
 ## Overview
 
