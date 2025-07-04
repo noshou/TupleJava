@@ -1,29 +1,97 @@
-### IntelliJ IDEA ###
+# --------------------
+# Operating System
+# --------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --------------------
+# IDEs and Editors
+# --------------------
+# IntelliJ IDEA
+/.idea/
+/*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# --------------------
+# Build Tools
+# --------------------
+# Maven
+/target/
+
+# Gradle (if used in future)
+/.gradle/
+/build/
+
+# --------------------
+# Java Specific
+# --------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# --------------------
+# Others
+# --------------------
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.orig
+*.swp
+
+# Generated files by Javadoc
+/doc/
+
+# --------------------
+# Misc
+# --------------------
+# dotenv environment files
+.env
+
+# SSH keys, if any
+*.pem
+*.key
+
