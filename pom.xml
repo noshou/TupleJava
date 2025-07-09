@@ -1,12 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.oson</groupId>
+
     <artifactId>tuple</artifactId>
+
     <version>1.0.0</version>
+
+    <name>Tuple</name>
+
+    <description>A simple, immutable, and static tuple-like library for Java Provides fixed-size, immutable tuple classes (from Monad up to Icosad, including polyad for n-tuples) that enable grouping multiple comparable elements with lexicographic ordering. Designed for straightforward usage without dependencies, emphasizing immutability and type safety. for Java</description>
+
+    <url>https://github.com/nathansheaouedraogo/TupleJava</url>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/nathansheaouedraogo/TupleJava</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
@@ -20,9 +37,9 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.4.0</version>
                 <configuration>
-                    <source>24</source>        <!-- Match your Java version -->
+                    <source>24</source>    <!-- Match your Java version -->
                     <show>protected</show>
-                </configuration>
+                    </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
