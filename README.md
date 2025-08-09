@@ -35,7 +35,7 @@ Add the following to your `pom.xml`:
 
 ```xml
 <dependency>
-  <groupId>com.oson</groupId>
+  <groupId>io.github.noshou</groupId>
   <artifactId>tuple</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -47,7 +47,7 @@ If using GitHub Packages:
 <repositories>
   <repository>
     <id>github</id>
-    <url>https://maven.pkg.github.com/nathansheaouedraogo/Tuple</url>
+    <url>https://maven.pkg.github.com/noshou/Tuple</url>
   </repository>
 </repositories>
 ```
