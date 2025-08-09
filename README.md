@@ -1,4 +1,4 @@
-# Tuple (com.oson.tuple)
+# Tuple (io.github.oson)
 
 A simple, immutable, and static **tuple-like** library for Java.
 

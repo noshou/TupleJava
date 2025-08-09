@@ -1,13 +1,13 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
- * An {@code Octad} is a fixed-size tuple of 8 {@link Comparable} elements.
+ * An {@code Ennead} is a fixed-size tuple of 9 {@link Comparable} elements.
  *
  * @param <I> the type of elements in this tuple; must implement {@link Comparable}
  */
-public class Octad<I extends Comparable<I>> extends Tuple<I> {
+public class Ennead<I extends Comparable<I>> extends Tuple<I> {
     @SuppressWarnings("unchecked")
-    public Octad(
+    public Ennead(
             I item1,
             I item2,
             I item3,
@@ -15,10 +15,11 @@ public class Octad<I extends Comparable<I>> extends Tuple<I> {
             I item5,
             I item6,
             I item7,
-            I item8
+            I item8,
+            I item9
     ) {
         super(
-                8,
+                9,
                 (I[]) new Comparable[]{
                         item1,
                         item2,
@@ -27,15 +28,16 @@ public class Octad<I extends Comparable<I>> extends Tuple<I> {
                         item5,
                         item6,
                         item7,
-                        item8
+                        item8,
+                        item9
                 }
         );
     }
 
     @Override
     public I fetch(int idx) {
-        if ((idx < 0) || (idx > 7)) {
-            throw new IndexOutOfBoundsException("An octad contains 8 elements!");
+        if ((idx < 0) || (idx > 8)) {
+            throw new IndexOutOfBoundsException("An ennead contains 9 elements!");
         }
         return super.fetch(idx);
     }

@@ -1,4 +1,4 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 /**
  * A {@code Polyad} is a fixed-size tuple of n {@link Comparable} elements.
  *

@@ -1,4 +1,4 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
  * A {@code Nullad} is a zero-length {@link Tuple}.

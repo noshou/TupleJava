@@ -1,13 +1,13 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
- * A {@code Tetrakaidecad} is a fixed-size tuple of 14 {@link Comparable} elements.
+ * A {@code Dodecad} is a fixed-size tuple of 12 {@link Comparable} elements.
  *
  * @param <I> the type of elements in this tuple; must implement {@link Comparable}
  */
-public class Tetrakaidecad<I extends Comparable<I>> extends Tuple<I> {
+public class Dodecad<I extends Comparable<I>> extends Tuple<I> {
     @SuppressWarnings("unchecked")
-    public Tetrakaidecad(
+    public Dodecad(
             I item1,
             I item2,
             I item3,
@@ -19,12 +19,10 @@ public class Tetrakaidecad<I extends Comparable<I>> extends Tuple<I> {
             I item9,
             I item10,
             I item11,
-            I item12,
-            I item13,
-            I item14
+            I item12
     ) {
         super(
-                14,
+                12,
                 (I[]) new Comparable[]{
                         item1,
                         item2,
@@ -37,17 +35,15 @@ public class Tetrakaidecad<I extends Comparable<I>> extends Tuple<I> {
                         item9,
                         item10,
                         item11,
-                        item12,
-                        item13,
-                        item14
+                        item12
                 }
         );
     }
 
     @Override
     public I fetch(int idx) {
-        if ((idx < 0) || (idx > 13)) {
-            throw new IndexOutOfBoundsException("A tetrakaidecad contains 14 elements!");
+        if ((idx < 0) || (idx > 11)) {
+            throw new IndexOutOfBoundsException("A dodecad contains 12 elements!");
         }
         return super.fetch(idx);
     }

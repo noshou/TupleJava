@@ -1,13 +1,13 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
- * A {@code Heptakaidecad} is a fixed-size tuple of 17 {@link Comparable} elements.
+ * An {@code Enneakaidecad} is a fixed-size tuple of 19 {@link Comparable} elements.
  *
  * @param <I> the type of elements in this tuple; must implement {@link Comparable}
  */
-public class Heptakaidecad<I extends Comparable<I>> extends Tuple<I> {
+public class Enneakaidecad<I extends Comparable<I>> extends Tuple<I> {
     @SuppressWarnings("unchecked")
-    public Heptakaidecad(
+    public Enneakaidecad(
             I item1,
             I item2,
             I item3,
@@ -24,10 +24,12 @@ public class Heptakaidecad<I extends Comparable<I>> extends Tuple<I> {
             I item14,
             I item15,
             I item16,
-            I item17
+            I item17,
+            I item18,
+            I item19
     ) {
         super(
-                17,
+                19,
                 (I[]) new Comparable[]{
                         item1,
                         item2,
@@ -45,15 +47,17 @@ public class Heptakaidecad<I extends Comparable<I>> extends Tuple<I> {
                         item14,
                         item15,
                         item16,
-                        item17
+                        item17,
+                        item18,
+                        item19
                 }
         );
     }
 
     @Override
     public I fetch(int idx) {
-        if ((idx < 0) || (idx > 16)) {
-            throw new IndexOutOfBoundsException("A heptakaidecad contains 17 elements!");
+        if ((idx < 0) || (idx > 18)) {
+            throw new IndexOutOfBoundsException("An enneakaidecad contains 19 elements!");
         }
         return super.fetch(idx);
     }

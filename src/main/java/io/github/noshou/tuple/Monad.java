@@ -1,4 +1,4 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
  * A {@code Monad} is a fixed-size tuple of 1 {@link Comparable} element.

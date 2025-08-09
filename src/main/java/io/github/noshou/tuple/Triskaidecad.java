@@ -1,4 +1,4 @@
-package com.oson.tuple;
+package io.github.noshou.tuple;
 
 /**
  * A {@code Triskaidecad} is a fixed-size tuple of 13 {@link Comparable} elements.

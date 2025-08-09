@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.oson</groupId>
+    <groupId>io.github.noshou</groupId>
 
     <artifactId>tuple</artifactId>
 
@@ -13,15 +13,21 @@
 
     <name>Tuple</name>
 
-    <description>A simple, immutable, and static tuple-like library for Java Provides fixed-size, immutable tuple classes (from Monad up to Icosad, including polyad for n-tuples) that enable grouping multiple comparable elements with lexicographic ordering. Designed for straightforward usage without dependencies, emphasizing immutability and type safety. for Java</description>
+    <description>A simple, immutable, and static tuple-like library
+        for Java Provides fixed-size, immutable tuple classes
+        (from Monad up to Icosad, including polyad for n-tuples)
+        that enable grouping multiple comparable elements with
+        lexicographic ordering. Designed for straightforward usage
+        without dependencies, emphasizing
+        immutability and type safety.</description>
 
-    <url>https://github.com/nathansheaouedraogo/TupleJava</url>
+    <url>https://github.com/noshou/TupleJava</url>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/nathansheaouedraogo/TupleJava</url>
+            <url>https://maven.pkg.github.com/noshou/TupleJava</url>
         </repository>
     </distributionManagement>
 
