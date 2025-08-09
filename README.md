@@ -56,7 +56,7 @@ If using GitHub Packages:
 
 ```gradle
 dependencies {
-    implementation 'com.oson:tuple:1.0.0'
+    implementation 'io.github.noshou:tuple:1.0.0'
 }
 ```
 
@@ -65,7 +65,7 @@ dependencies {
 ### Basic Usage
 
 ```java
-import com.oson.tuple.Triad;
+import io.github.noshou.tuple.Triad;
 
 // Create a 3-element tuple
 Triad<String> triple = new Triad<>("apple", "banana", "cherry");
@@ -90,7 +90,7 @@ for (String item : triple) {
 ### Different Tuple Types
 
 ```java
-import com.oson.tuple.*;
+import io.github.noshou.tuple.*;
 
 // Empty tuple
 Nullad<String> empty = new Nullad<>();
@@ -108,7 +108,7 @@ Polyad<String> many = new Polyad<>("a", "b", "c", "d", "e");
 ### Comparison and Sorting
 
 ```java
-import com.oson.tuple.Triad;
+import io.github.noshou.tuple.Triad;
 import java.util.Arrays;
 import java.util.Collections;
 
