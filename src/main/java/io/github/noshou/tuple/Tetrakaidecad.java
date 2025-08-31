@@ -49,6 +49,6 @@ public class Tetrakaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 13)) {
             throw new IndexOutOfBoundsException("A tetrakaidecad contains 14 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

@@ -51,6 +51,6 @@ public class Pentakaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 14)) {
             throw new IndexOutOfBoundsException("A pentakaidecad contains 15 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

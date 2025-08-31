@@ -39,6 +39,6 @@ public class Ennead<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 8)) {
             throw new IndexOutOfBoundsException("An ennead contains 9 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

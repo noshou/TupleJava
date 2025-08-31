@@ -33,7 +33,7 @@ public class Hexad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 5)) {
             throw new IndexOutOfBoundsException("A hexad contains 6 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 
 }

@@ -55,6 +55,6 @@ public class Heptakaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 16)) {
             throw new IndexOutOfBoundsException("A heptakaidecad contains 17 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

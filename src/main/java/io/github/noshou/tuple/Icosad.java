@@ -61,6 +61,6 @@ public class Icosad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 19)) {
             throw new IndexOutOfBoundsException("An icosad contains 20 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

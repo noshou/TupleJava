@@ -17,6 +17,6 @@ public class Monad<I extends Comparable<I>> extends Tuple<I> {
         if (idx != 0) {
             throw new IndexOutOfBoundsException("A monad contains 1 element!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

@@ -6,20 +6,19 @@ import java.util.*;
  * Stores the items in a LinkedHashMap keyed by their position.
  * @param <I> the type of items in the tuple; must implement Comparable
  */
-public abstract class Tuple<I extends Comparable<I>>
+public abstract class Tuple<I extends Comparable<? super I>>
         implements Comparable<Tuple<I>>, Iterable<I>  {
 
     /**
      * The map storing the tuple elements, keyed by their index.
      */
-    private final Map<Integer, I> tuple;
-    private int size;
+    protected final Map<Integer, I> tuple;
+    private final int size;
 
 
     /**
      * Constructs a Tuple with the given size and initializes it
      * with the provided array of items.
-     *
      * @param size the size of the tuple
      * @param items the items to initialize the tuple with
      */
@@ -44,9 +43,7 @@ public abstract class Tuple<I extends Comparable<I>>
      * @param idx the index of the item to fetch
      * @return the item at the specified index
      */
-    protected I fetch(int idx) {
-        return this.tuple.get(idx);
-    }
+    public abstract I fetch(int idx);
 
     /**
      * Returns the number of elements in this {@code Tuple}.
@@ -259,7 +256,6 @@ public abstract class Tuple<I extends Comparable<I>>
      * Computes the hash code for this tuple.
      * The hash code is based on the internal map of elements, ensuring that
      * equal tuples produce the same hash code.
-     *
      * @return the hash code value for this tuple
      */
     @Override

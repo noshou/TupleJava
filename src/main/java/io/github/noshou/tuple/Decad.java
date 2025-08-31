@@ -41,6 +41,6 @@ public class Decad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 9)) {
             throw new IndexOutOfBoundsException("A decad contains 10 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

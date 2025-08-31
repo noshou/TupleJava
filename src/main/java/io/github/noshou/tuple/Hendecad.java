@@ -43,6 +43,6 @@ public class Hendecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 10)) {
             throw new IndexOutOfBoundsException("A hendecad contains 11 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

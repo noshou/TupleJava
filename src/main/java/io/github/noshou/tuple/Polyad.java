@@ -28,6 +28,6 @@ public class Polyad<I extends Comparable<I>> extends Tuple<I> {
         if (idx < 0 || idx >= super.fetchSize()) {
             throw new IndexOutOfBoundsException("Polyad indexed out of bounds!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

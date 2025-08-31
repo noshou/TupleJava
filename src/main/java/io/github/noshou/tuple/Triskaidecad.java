@@ -47,6 +47,6 @@ public class Triskaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 12)) {
             throw new IndexOutOfBoundsException("A triskaidecad contains 12 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

@@ -57,6 +57,6 @@ public class Octakaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 17)) {
             throw new IndexOutOfBoundsException("An octakaidecad contains 18 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

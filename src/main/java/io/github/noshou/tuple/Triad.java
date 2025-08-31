@@ -27,6 +27,6 @@ public class Triad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 2)) {
             throw new IndexOutOfBoundsException("A triad contains 3 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

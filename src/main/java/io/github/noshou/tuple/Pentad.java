@@ -31,6 +31,6 @@ public class Pentad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 4)) {
             throw new IndexOutOfBoundsException("A pentad contains 5 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

@@ -30,7 +30,7 @@ public class Tetrad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 3)) {
             throw new IndexOutOfBoundsException("A tetrad contains 4 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 
 }

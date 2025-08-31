@@ -25,6 +25,6 @@ public class Dyad<I extends Comparable<I>> extends Tuple<I>  {
         if ((idx < 0) || (idx > 1)) {
             throw new IndexOutOfBoundsException("A dyad contains two elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

@@ -53,6 +53,6 @@ public class Hexakaidecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 15)) {
             throw new IndexOutOfBoundsException("A hexakaidecad contains 16 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

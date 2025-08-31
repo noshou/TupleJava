@@ -37,6 +37,6 @@ public class Octad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 7)) {
             throw new IndexOutOfBoundsException("An octad contains 8 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }

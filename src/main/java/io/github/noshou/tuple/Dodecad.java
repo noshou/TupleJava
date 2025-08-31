@@ -45,6 +45,6 @@ public class Dodecad<I extends Comparable<I>> extends Tuple<I> {
         if ((idx < 0) || (idx > 11)) {
             throw new IndexOutOfBoundsException("A dodecad contains 12 elements!");
         }
-        return super.fetch(idx);
+        return tuple.get(idx);
     }
 }
