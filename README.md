@@ -37,7 +37,7 @@ Add the following to your `pom.xml`:
 <dependency>
   <groupId>io.github.noshou</groupId>
   <artifactId>tuple</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
@@ -56,7 +56,7 @@ If using GitHub Packages:
 
 ```gradle
 dependencies {
-    implementation 'io.github.noshou:tuple:1.0.0'
+    implementation 'io.github.noshou:tuple:1.0.1'
 }
 ```
 
