@@ -4,16 +4,16 @@ A simple, immutable, and static **tuple-like** library for Java.
 
 This library provides a suite of fixed-size and variable-size tuple classes (from `Nullad` to `Icosad`, including `Polyad`) that allow you to group multiple comparable elements with full type safety, immutability, and natural ordering. Designed with clarity and zero dependencies in mind.
 
-## ✨ Features
+## Features
 
-- ✅ **Immutable** – tuples are final and cannot be modified
-- 🔒 **Type-safe** – generic parameter `<I extends Comparable<I>>` ensures consistency
-- 📚 **Lexicographic comparison** – all tuples implement `Comparable`
-- 🔁 **Iterable** – iterate over elements with enhanced `for`-loop
-- 🔢 **Indexed access** – retrieve values with bounds checking
-- 📐 **Sized variants** – predefined classes from 0 to 20 elements
+- **Immutable** – tuples are final and cannot be modified
+- **Type-safe** – generic parameter `<I extends Comparable<I>>` ensures consistency
+- **Lexicographic comparison** – all tuples implement `Comparable`
+- **Iterable** – iterate over elements with enhanced `for`-loop
+- **Indexed access** – retrieve values with bounds checking
+- **Sized variants** – predefined classes from 0 to 20 elements
 
-## 📦 Key Classes
+## Key Classes
 
 | Class              | Description                            |
 |--------------------|----------------------------------------|
@@ -127,7 +127,7 @@ Collections.sort(tuples);
 System.out.println(tuples); // [t1, t2, t3] in lexicographic order
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 The library is built around a clean inheritance hierarchy:
 
@@ -141,7 +141,7 @@ All classes are:
 - **Comparable** - support natural ordering via lexicographic comparison
 - **Iterable** - can be used in enhanced for-loops
 
-## 📋 API Reference
+## API Reference
 
 ### Core Methods
 
@@ -169,7 +169,7 @@ new Icosad<>(a, b, c, ..., t)          // 20 elements
 new Polyad<>(a, b, c, ...)             // any number of elements
 ```
 
-## 🛠️ Development
+## Development
 
 ### Building the Project
 
@@ -201,19 +201,18 @@ Make sure you have your GitHub credentials configured in `~/.m2/settings.xml`.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 Requirements
+## Requirements
 
 - Java 8 or higher
 - Maven 3.6 or higher (for building)
 - Zero runtime dependencies
 
-## 📄 License
+## License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
-## 📬 Contact
+## Contact
 
 **Maintained by Nathan Shea Ouedraogo**
 
-- GitHub: [@nathansheaouedraogo](https://github.com/nathansheaouedraogo)
-- Project Link: [https://github.com/nathansheaouedraogo/Tuple](https://github.com/nathansheaouedraogo/Tuple)
+- GitHub: [@noshou](https://github.com/noshou)
